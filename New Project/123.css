@@ -1,0 +1,60 @@
+.left h1{
+    float:inline-start;
+    display: block;
+    color: white;
+
+}
+.right li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+.right ul a{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    color: black;
+}
+
+.right li a:hover{
+    float: right;
+    background-color: #111;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    size: 500px;
+    color: beige;
+    font-size: 40px;
+  }
+.item{
+    width:200px;
+    text-align:bottom;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    float:bottom;
+  }
+  #index-gallery{
+    width:465px;
+    background-size: 1600px 500px;
+  }
+  .center {
+    position: absolute;
+    
+    left: 50%;
+    bottom: -250px;
+    transform: translate(-50%, -50%);
+    size: 500px;
+    color: beige;
+    font-size: 40px;
+  }
